@@ -1,0 +1,39 @@
+ .footer {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     background-color: $black;
+     color: $white;
+     font-family: $poppins;
+     & a {
+         color: $white;
+         text-decoration: none;
+         &:hover {
+             color: $orange;
+         }
+     }
+ }
+ 
+ @include respond-to($min-md) {
+     .footer {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+         background-color: $black;
+         color: $white;
+         font-family: $poppins;
+         &__varios {
+             display: flex;
+             align-items: baseline;
+             gap: 15px;
+         }
+         & a {
+             color: $white;
+             text-decoration: none;
+             &:hover {
+                 color: $orange;
+             }
+         }
+     }
+ }

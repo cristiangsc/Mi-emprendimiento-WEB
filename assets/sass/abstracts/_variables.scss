@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+$poppins: 'Poppins',
+sans-serif;
+$ubuntu: 'Ubuntu',
+sans-serif;
+$regular: 400;
+$bold: 700;
+
+/* Breakpoints */
+
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+//colors
+$white: #fff;
+$gray: #505050;
+$black: #000000;
+$sable: #060606;
+$charcoal: #2e1503;
+$tangerine: #ffaf6d;
+$orange: #ffa500;
+//size font
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;

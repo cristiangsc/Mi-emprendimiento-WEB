@@ -1,0 +1,20 @@
+.header__container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 100%;
+        height: 15rem;
+        @include respond-to($min-md) {
+            width: 98%;
+            height: 25rem;
+        }
+        @include respond-to($min-lg) {
+            width: 98%;
+            height: 30rem;
+        }
+    }
+}

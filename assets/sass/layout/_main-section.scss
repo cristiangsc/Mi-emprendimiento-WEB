@@ -1,0 +1,73 @@
+.main__article {
+    border: 1px solid $black;
+    &--circ {
+        border-radius: 50%;
+    }
+    &--icons i {
+        padding: 0.5rem;
+    }
+    &--iconss {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        i {
+            padding: 0.5rem;
+            color: $black;
+        }
+    }
+    &--more-courses {
+        font-family: $poppins;
+        font-size: $large;
+        font-weight: $bold;
+        text-align: center;
+        background-color: $gray;
+        color: $white;
+    }
+}
+
+.main__article-list {
+    list-style: circle;
+    & a {
+        text-decoration: none;
+        color: #6c259c;
+        font-family: $poppins;
+    }
+}
+
+.main__article--border {
+    border: 1px dotted $sable;
+    border-radius: 0;
+}
+
+@include respond-to($min-md) {
+    .col-md-6 {
+        max-width: 47%;
+    }
+}
+
+@include respond-to($min-lg) {
+    .col-lg-6 {
+        max-width: 47%;
+    }
+}
+
+.main__article--image {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    width: 60%;
+    height: 60%;
+    border: 1px solid $black;
+    align-self: center;
+    @include respond-to($min-lg) {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+.main__card--textbold {
+    font-weight: $bold;
+    font-size: $large;
+}

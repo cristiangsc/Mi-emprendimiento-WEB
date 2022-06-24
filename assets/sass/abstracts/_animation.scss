@@ -1,0 +1,59 @@
+.engranaje {
+    -webkit-animation: rotar 4s linear infinite;
+    -webkit-transform-origin: 55%;
+    -ms-transform-origin: 55%;
+    animation: rotar 4s linear infinite;
+    transform-origin: 56%;
+    transform-box: fill-box;
+}
+
+@-webkit-keyframes rotar {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotar {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.corchetes {
+    -webkit-animation: horizontal 3s ease-in-out infinite;
+    -webkit-animation-direction: alternate;
+    animation: horizontal 3s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes horizontal {
+    0% {
+        -webkit-transform: translate(150px, 0px);
+        transform: translate(150px, 0px);
+    }
+    100% {
+        -webkit-transform: translate(150, 0);
+        transform: translate(150, 0);
+    }
+}
+
+@keyframes horizontal {
+    0% {
+        -webkit-transform: translate(150px, 0px);
+        transform: translate(150px, 0px);
+    }
+    100% {
+        -webkit-transform: translate(150, 0);
+        transform: translate(150, 0);
+    }
+}
